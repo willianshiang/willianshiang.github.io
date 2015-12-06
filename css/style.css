@@ -1,0 +1,74 @@
+body {
+	background-image: url(../images/background.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	font-family: 'Allan', cursive;
+}
+
+
+.main{ 
+	background-color: rgba(255,237,41, 1);
+	background-color: rgba(255,237,41, 0.5);
+	width: 800px;
+	margin: 0 auto;
+	padding: 100px;
+	border-radius: : 200px;
+	box-shadow: 0 0 50px 50px rgba(255,237,41, 0.5);
+}
+
+h1{ 
+	text-align: center; 
+	font-weight: normal;
+}
+
+.logo
+	{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50%;
+}
+
+.beercharacter
+	{
+	width: 800px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 50% 50% 0 0;
+}
+
+.comingsoon
+	{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid gray;
+	border-radius: 0 0 0 0;
+}
+
+.menu
+	{
+	padding-left: 100px;
+}
+
+
+p, 
+ul,
+ol {line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+
+	}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	}
